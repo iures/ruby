@@ -1,10 +1,12 @@
 # Ruby Style Guide
 
-This is Airbnb's Ruby Style Guide.
+This is BeenVerified's Ruby Style Guide.
 
-It was inspired by [GitHub's guide](https://web.archive.org/web/20160410033955/https://github.com/styleguide/ruby) and [Rubocop guide][rubocop-guide].
+It was inspired by [GitHub's guide](https://web.archive.org/web/20160410033955/https://github.com/styleguide/ruby) and [Rubocop guide][rubocop-guide]
+and forked from [Airbnb's guide](https://github.com/airbnb/ruby).
 
-Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
+BeenVerified also maintains a [JavaScript Style Guide](https://github.com/BeenVerifiedInc/javascript) and an
+[API guide](https://github.com/BeenVerifiedInc/api-guide).
 
 ## Table of Contents
   1. [Whitespace](#whitespace)
@@ -353,22 +355,6 @@ module Translation
 ```
 
 All files, including data and config files, should have file-level comments.
-
-```ruby
-# List of American-to-British spelling variants.
-#
-# This list is made with
-# lib/tasks/list_american_to_british_spelling_variants.rake.
-#
-# It contains words with general spelling variation patterns:
-#   [trave]led/lled, [real]ize/ise, [flav]or/our, [cent]er/re, plus
-# and these extras:
-#   learned/learnt, practices/practises, airplane/aeroplane, ...
-
-sectarianizes: sectarianises
-neutralization: neutralisation
-...
-```
 
 ### Function comments
 
@@ -1738,7 +1724,8 @@ In either case:
 
 &mdash;[Google C++ Style Guide][google-c++]
 
-[airbnb-javascript]: https://github.com/airbnb/javascript
+[beenverified-javascript]: https://github.com/BeenVerifiedInc/javascript
+[beenverified-api-guide]: https://github.com/BeenVerifiedInc/api-guide
 [rubocop-guide]: https://github.com/rubocop-hq/ruby-style-guide
 [github-ruby]: https://github.com/styleguide/ruby
 [google-c++]: https://google.github.io/styleguide/cppguide.html
@@ -1747,9 +1734,3 @@ In either case:
 [ruby-naming-bang]: http://dablog.rubypal.com/2007/8/15/bang-methods-or-danger-will-rubyist
 [ruby-freeze]: https://blog.honeybadger.io/when-to-use-freeze-and-frozen-in-ruby/
 [avoid-else-return-early]: http://blog.timoxley.com/post/47041269194/avoid-else-return-early
-
-## Translation
-
-  This style guide is also available in other languages:
-
-  - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: [1c7/ruby-airbnb](https://github.com/1c7/ruby-airbnb)
